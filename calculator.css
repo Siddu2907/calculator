@@ -1,0 +1,49 @@
+.mx-auto{
+    margin:auto;
+}
+body{
+    height: 100vh;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin: 25px auto;
+}
+.container{
+    height: 100vh;
+}
+
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid yellowgreen;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    margin: 0;
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 10px 8px;
+    border: 2px solid yellowgreen;
+    border-radius: 8px;
+    background-color: black;
+}
